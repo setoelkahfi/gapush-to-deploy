@@ -1,5 +1,8 @@
 name: "GitHub Action Push-to-deploy"
 description: "GitHub Action to deploy main branch to production a la Heroku."
+branding:
+  icon: "box"
+  color: "red"
 inputs:
   git-directory:
     description: "Your git bare repo directory."
